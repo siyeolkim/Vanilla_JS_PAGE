@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    font-family: "Comic Sans MS", "sans-serif", "Arial";
+
+    padding: 20px
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+}
+
+#title{
+    text-align: center;
+}
+
+#content{
+    margin-top: 20px;
+    display: flex;
+
+    flex-direction: column;
+    gap: 5px    ;
+}
+
+.todo-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.todo-label{
+    font-size: 20px;
+}
+
+.todo-done{
+    font-size: 20px;
+    text-decoration: line-through;
+}
+
+.todo-action{
+    background: none;
+    border: none;
+    border-radius: 10px;
+    
+    padding: 5px 15px;
+}
+
+.clear{
+    background-color: skyblue;
+    color: white;
+}
+
+.delete{
+    background-color: #800200;
+    color: white;
+}
+
+.edit{
+    background-color: #000000;
+    color: white;
+}
+
+.action-wrapper{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.add-action{
+    background: none;
+    border: none;
+
+    background-color: white;
+    box-shadow: 0 0 30px lightgray;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+
+    font-size: 25px;
+}
+
